@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Wedding Planner | Свадьба вашей мечты с профессиональным организатором</title>
-</head>
-<body>
-    <p>Hola</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>
+      Wedding Planner | Свадьба вашей мечты с профессиональным организатором
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header"></header>
+
+      <main>
+        <section class="testimonials">
+          <h2 class="title-second text-align-center margin-bottom-40px">
+            Отзывы наших клиентов
+          </h2>
+
+          <div class="slider">
+            <input type="radio" name="slider" id="slide1" checked />
+            <input type="radio" name="slider" id="slide2" />
+            <input type="radio" name="slider" id="slide3" />
+
+            <div class="slider__track">
+              <div class="slider__slide">
+                <div class="slider-content__wrap">
+                  <img class="slider-content__ico margin-bottom-30px" src="./img/slider_pic_1.jpg" alt="Свадебное фото" />
+                  <h3 class="title-third margin-bottom-10px">Свадьба на берегу моря</h3>
+                  <span class="slider-content__desc"> Светлана и Сергей </span>
+                  <p class="slider-content__content">
+                    Мы немножко отошли от отдыха и хотели бы ещё раз
+                    поблагодарить вас за всё! Свадьба была невероятная, просто
+                    голливудский фильм! Передайте, пожалуйста, нашу искреннюю
+                    благодарность всей команде. Свет, декорации и вся
+                    организация праздника были на высшем уровне!
+                  </p>
+                </div>
+              </div>
+              <div class="slider__slide">Это второй слайд</div>
+              <div class="slider__slide">Это третий слайд</div>
+            </div>
+
+            <div class="slider__arrows">
+              <!-- для slide1 -->
+              <label class="arrow prev" for="slide3">&#10094;</label>
+              <label class="arrow next" for="slide2">&#10095;</label>
+
+              <!-- для slide2 -->
+              <label class="arrow prev" for="slide1">&#10094;</label>
+              <label class="arrow next" for="slide3">&#10095;</label>
+
+              <!-- для slide3 -->
+              <label class="arrow prev" for="slide2">&#10094;</label>
+              <label class="arrow next" for="slide1">&#10095;</label>
+            </div>
+
+            <div class="slider__dots">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
