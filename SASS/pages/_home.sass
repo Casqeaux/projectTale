@@ -6,20 +6,37 @@
 
 .personal-link
     display: flex
-  gap: 20%
-  &__left
-    width: 37%
-  &__right
-    width: 25%
-  &__item
-    display: inline-block
-    padding: 0 0 1.5rem 0
-    &:last-child
-      padding: 0
-  &__link
-    display: inline-block
-    font-family: $font-content-link-regular
-    text-transform: uppercase
-    font-size: $font-size-paragraph
-    color: $color-white
-    line-height: 140%
+    gap: 20%
+    &__left
+        width: 37%
+    &__right
+        width: 25%
+    &__item
+        display: inline-block
+        padding: 0 0 1.5rem 0
+        &:last-child
+            padding: 0
+    &__link
+        display: inline-block
+        font-family: $font-content-link-regular
+        text-transform: uppercase
+        font-size: $font-size-paragraph
+        color: $color-white
+        line-height: 140%
+
+.trust
+    &__container
+        
+    &__mobile
+    &__wrapper
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        align-items: center
+        gap: 2rem
+        width: 100%
+
+    &__pic
+        width: calc(50% - 1rem)
+        max-width: 17.2rem
+
