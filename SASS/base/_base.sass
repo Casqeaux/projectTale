@@ -3,6 +3,12 @@
     padding: 0
     box-sizing: border-box
 
+ul
+    list-style-type: none
+
+a
+    text-decoration: none
+
 // Удобный расчет REM, Fonts-Size: 10px
 html
     font-size: 62.5% //10 / 16 * 100 = 62.5% - Шрифт в процентах для избежания бага
@@ -10,7 +16,6 @@ html
 // Базовые настройка отступок и фона сайта
 body
     background-color: $color-white
-    padding: 10rem 1.25rem
 
 // Базовые настройка контента
 p
@@ -18,3 +23,8 @@ p
     font-size: $font-size-paragraph
 
 // Настройки контейнера
+.container
+    padding: 10rem 1.25rem
+
+.personal-container
+    padding: 0

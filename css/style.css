@@ -16,10 +16,24 @@
   font-weight: 300;
   src: url("../fonts/TTCommons-Light.woff2") format("woff2"), url("../fonts/TTCommons-Light.woff") format("woff"), url("../fonts/TTCommons-Light.eot") format("eot"), url("../fontsTTCommons-Light.ttf") format("ttf");
 }
+@font-face {
+  font-family: "TT Commons Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/TTCommons-Regular.woff2") format("woff2"), url("../fonts/TTCommons-Regular.woff") format("woff"), url("../fonts/TTCommons-Regular.eot") format("eot"), url("../fontsTTCommons-Regular.ttf") format("ttf");
+}
 *, ::after, ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 html {
@@ -28,12 +42,19 @@ html {
 
 body {
   background-color: #FFFFFF;
-  padding: 10rem 1.25rem;
 }
 
 p {
   font-family: "TT Commons Light", sans-serif;
   font-size: 1.8rem;
+}
+
+.container {
+  padding: 10rem 1.25rem;
+}
+
+.personal-container {
+  padding: 0;
 }
 
 .title-second {
@@ -64,12 +85,24 @@ p {
   margin: 0 0 1.5rem 0;
 }
 
+.margin-bottom-20px {
+  margin: 0 0 2rem 0;
+}
+
 .margin-bottom-30px {
   margin: 0 0 3rem 0;
 }
 
 .margin-bottom-40px {
   margin: 0 0 4rem 0;
+}
+
+.margin-bottom-70px {
+  margin: 0 0 7rem 0;
+}
+
+.color-white {
+  color: #FFFFFF;
 }
 
 .slider {
@@ -221,4 +254,29 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.personal {
+  background-color: #02170F;
+  width: 100%;
+}
+.personal__container {
+  padding: 0;
+}
+
+.personal-link {
+  display: flex;
+  gap: 1rem;
+}
+.personal-link__link {
+  font-family: "TT Commons Regular", sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  line-height: 140%;
+  padding: 0 0 1.5rem 0;
+}
+.personal-link__link:last-child {
+  padding: 0;
 }
