@@ -328,7 +328,7 @@ p {
   flex: 1 1 45%;
   margin: 0 0 2rem 0;
   padding: 1.2rem 1.5rem;
-  border: 0.05rem solid #000000;
+  border: 0.1rem solid #000000;
   border-radius: 1rem;
   font-size: 1.8rem;
   font-family: "TT Commons Regular", sans-serif;
