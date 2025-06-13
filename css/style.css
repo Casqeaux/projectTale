@@ -390,7 +390,7 @@ p {
   border-radius: 1rem;
   width: 100%;
   background: none;
-  border: 0.05rem solid #000000;
+  border: 0.1rem solid #000000;
   color: #000000;
   opacity: 30%;
 }
