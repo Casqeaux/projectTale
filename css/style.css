@@ -260,6 +260,22 @@ p {
   align-items: center;
 }
 
+.waranty-card {
+  width: 100%;
+  padding: 3rem 2.5rem;
+  border-radius: 2rem;
+  margin: 0 0 2rem 0;
+}
+.waranty-card__white {
+  color: #000000;
+  background-color: #E6EBF5;
+}
+.waranty-card__transparent {
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0.3rem solid #E6EBF5;
+}
+
 .personal {
   background-color: #02170F;
   width: 100%;
@@ -305,4 +321,9 @@ p {
 .trust__pic {
   width: calc(50% - 1rem);
   max-width: 17.2rem;
+}
+
+.waranty {
+  background-color: #02170F;
+  height: auto;
 }
