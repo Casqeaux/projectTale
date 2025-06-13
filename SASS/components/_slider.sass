@@ -24,6 +24,7 @@
     font-size: 2rem
     background: $color-white
     color: #333
+    
 
   #slide1:checked ~ .slider__track
     transform: translateX(0%)
@@ -79,22 +80,33 @@
   &__dots
     display: flex
     justify-content: center
-    margin-top: 1.5rem
     gap: 1rem
 
     label
-      width: 1.2rem
-      height: 1.2rem
+      opacity: 20%
+      width: .8rem
+      height: .8rem
       border-radius: 50%
-      background: #ccc
+      background: $color-black
       cursor: pointer
       transition: background 0.3s
 
   #slide1:checked ~ .slider__dots label:nth-child(1),
   #slide2:checked ~ .slider__dots label:nth-child(2),
   #slide3:checked ~ .slider__dots label:nth-child(3)
-    background: #333
-
+    
+    background: $color-black
+    opacity: 100%
+ 
 .slider-content 
     &__ico
         width: 100%
+        border-radius: 2rem
+    &__desc
+      display: inline-block
+      font-family: $font-content-light
+      font-size: 1.8rem
+      line-height: 140%
+      text-transform: uppercase
+    &__content
+      line-height: 140%  

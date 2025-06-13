@@ -10,6 +10,12 @@
   font-weight: 300;
   src: url("../fonts/ABChanel Corpo Extra Light.woff2") format("woff2"), url("../fonts/ABChanel Corpo Extra Light.woff") format("woff"), url("../fonts/ABChanel Corpo Extra Light.eot") format("eot"), url("../fonts/ABChanel Corpo Extra Light.ttf") format("ttf");
 }
+@font-face {
+  font-family: "TT Commons Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/TTCommons-Light.woff2") format("woff2"), url("../fonts/TTCommons-Light.woff") format("woff"), url("../fonts/TTCommons-Light.eot") format("eot"), url("../fontsTTCommons-Light.ttf") format("ttf");
+}
 *, ::after, ::before {
   margin: 0;
   padding: 0;
@@ -25,9 +31,13 @@ body {
   padding: 10rem 1.25rem;
 }
 
+p {
+  font-family: "TT Commons Light", sans-serif;
+  font-size: 1.8rem;
+}
+
 .title-second {
   font-family: "ABChanel Corpo Light", sans-serif;
-  font-weight: 300;
   color: #000000;
   text-transform: uppercase;
   font-size: 2.8rem;
@@ -48,6 +58,10 @@ body {
 
 .margin-bottom-10px {
   margin: 0 0 1rem 0;
+}
+
+.margin-bottom-15px {
+  margin: 0 0 1.5rem 0;
 }
 
 .margin-bottom-30px {
@@ -138,23 +152,73 @@ body {
 .slider__dots {
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
   gap: 1rem;
 }
 .slider__dots label {
-  width: 1.2rem;
-  height: 1.2rem;
+  opacity: 20%;
+  width: 0.8rem;
+  height: 0.8rem;
   border-radius: 50%;
-  background: #ccc;
+  background: #000000;
   cursor: pointer;
   transition: background 0.3s;
 }
 .slider #slide1:checked ~ .slider__dots label:nth-child(1),
 .slider #slide2:checked ~ .slider__dots label:nth-child(2),
 .slider #slide3:checked ~ .slider__dots label:nth-child(3) {
-  background: #333;
+  background: #000000;
+  opacity: 100%;
 }
 
 .slider-content__ico {
   width: 100%;
+  border-radius: 2rem;
+}
+.slider-content__desc {
+  display: inline-block;
+  font-family: "TT Commons Light", sans-serif;
+  font-size: 1.8rem;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.slider-content__content {
+  line-height: 140%;
+}
+
+.btn__wrapper {
+  display: inline-block;
+  padding: 0.1rem;
+  border-radius: 100rem;
+  background: linear-gradient(to right, #000000 0%, #FFFFFF 70%, #000000 100%);
+}
+.btn__style {
+  display: block;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 1.3rem 4rem;
+  border-radius: 97rem;
+  font-size: 1.6rem;
+  font-family: "ABChanel Corpo Light", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+}
+.btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #FFFFFF;
+  border-radius: 5rem;
+  transition: all 0.3s;
+  position: relative;
+}
+.btn__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

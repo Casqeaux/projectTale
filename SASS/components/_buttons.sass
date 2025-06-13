@@ -1,0 +1,33 @@
+// Стиль для основной кнопки сайта
+.btn
+    &__wrapper
+        display: inline-block
+        padding: .1rem // толщина рамки
+        border-radius: 100rem
+        background: linear-gradient(to right, $color-black 0%, $color-white 70%, $color-black 100%)
+    &__style
+        display: block
+        margin: 0 auto
+        background-color: $color-white
+        border: none
+        padding: 1.3rem 4rem
+        border-radius: 97rem // чуть меньше, чтобы не вылезал наружу
+        font-size: $font-size-btn
+        font-family: $font-title-light
+        text-transform: uppercase
+        color: $color-black
+        cursor: pointer
+    &:link, &:visited
+        @include link-style
+        font-size: 2rem
+        text-decoration: none
+        padding: 1.5rem 4rem
+        background-color: $color-white
+        border-radius: 5rem
+        transition: all .3s
+        position: relative
+    &:hover
+    &__center
+        display: flex
+        justify-content: center
+        align-items: center
