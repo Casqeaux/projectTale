@@ -266,17 +266,26 @@ p {
 
 .personal-link {
   display: flex;
-  gap: 1rem;
+  gap: 20%;
+}
+.personal-link__left {
+  width: 37%;
+}
+.personal-link__right {
+  width: 25%;
+}
+.personal-link__item {
+  display: inline-block;
+  padding: 0 0 1.5rem 0;
+}
+.personal-link__item:last-child {
+  padding: 0;
 }
 .personal-link__link {
-  font-family: "TT Commons Regular", sans-serif;
   display: inline-block;
+  font-family: "TT Commons Regular", sans-serif;
   text-transform: uppercase;
   font-size: 1.8rem;
   color: #FFFFFF;
   line-height: 140%;
-  padding: 0 0 1.5rem 0;
-}
-.personal-link__link:last-child {
-  padding: 0;
 }
