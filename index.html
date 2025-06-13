@@ -80,7 +80,9 @@
 
             <div class="btn__center">
               <div class="btn__wrapper">
-                <a class="btn__style" href="#">Все отзывы &rarr;</a>
+                <button class="btn__style" onclick="window.location.href='#'">
+                Все отзывы &rarr;
+              </button>
               </div>
             </div>
           </div>
@@ -427,6 +429,59 @@
             </div>
           </div>
         </section>
+
+        <section class="form-section">
+        <div class="container">
+         <h2 class="form-section__title title-second text-align-center margin-bottom-35px">Напишите нам</h2>
+         <!-- Начало формы -->
+         <form class="form" action="#" method="POST">
+            <div class="form__row">
+                <label class="form__label" for="phone">Имя*</label>
+             <input type="text" class="form__input" placeholder="Ваше имя" name="name" required >
+              <label class="form__label" for="phone">Номер телефона*</label>
+             <input type="tel" class="form__input" placeholder="Ваш телефон" name="phone" required />
+             <label class="form__label" for="phone">E-Mail*</label>
+            <input type="email" class="form__input" placeholder="Ваш E-mail" name="email" required />
+              <label class="form__label" for="phone">Тип события*</label>
+              <div class="select-wrapper">
+          <select class="form__input" name="event" required>
+            <option value="">Выберите событие</option>
+            <option value="wedding">Свадьба</option>
+            <option value="church">Венчание</option>
+            <option value="birthday">День рождения</option>
+            <option value="family">Семейное торжество</option>
+         </select>
+         </div>
+          <label class="form__label" for="phone">Место</label>
+            <input type="text" class="form__input" placeholder="Место" name="place" />
+          <label class="form__label" for="phone">Дата</label>
+            <input type="date" class="form__input" name="date" />
+          <label class="form__label" for="phone">Сообщение</label>
+           <textarea class="form__textarea" placeholder="Сообщение" name="message"></textarea>
+
+      <div class="form__row--checkbox margin-bottom-35px">
+        <label class="form__checkbox">
+          <input type="checkbox" required />
+          <span>
+            Отправляя заявку, я соглашаюсь с правилами
+            <a href="#" target="_blank">пользовательским соглашением</a>
+          </span>
+        </label>
+      </div>
+
+            <div class="btn__center">
+              <div class="btn__wrapper">
+                       <button type="submit" class="btn__style">
+                Отправить &rarr;
+              </button>
+              </div>
+            </div>
+      </div>
+    </form>
+    </div>
+  </section>
+
+
       </main>
   </body>
 </html>
