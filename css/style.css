@@ -109,6 +109,10 @@ p {
   color: #FFFFFF;
 }
 
+.width-70 {
+  max-width: 70%;
+}
+
 .slider {
   position: relative;
   width: 100%;
@@ -276,6 +280,30 @@ p {
   border: 0.3rem solid #E6EBF5;
 }
 
+.contacts-content__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts-content__cart {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0 0 4rem 0;
+}
+.contacts-content__link {
+  font-family: "TT Commons Light", sans-serif;
+  font-size: 2.2rem;
+  color: #000000;
+}
+
+.contacts-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
 .personal {
   background-color: #02170F;
   width: 100%;
@@ -326,4 +354,26 @@ p {
 .waranty {
   background-color: #02170F;
   height: auto;
+}
+
+.contacts {
+  background-image: url("../img/contacts_bgc_jpg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.contacts__title-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contacts__title {
+  max-width: 60%;
+  background: linear-gradient(90deg, #2b5876 0%, #51a4dc 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.contacts__desc {
+  text-align: center;
 }

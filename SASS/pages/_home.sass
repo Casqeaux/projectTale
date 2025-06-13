@@ -43,3 +43,18 @@
 .waranty
     background-color: $color-green-accent
     height: auto
+
+.contacts
+    @include background-cover($bg-contacts-image)
+    height: auto
+    &__title-wrap
+        display: flex
+        align-items: center
+        flex-direction: column
+    &__title
+        max-width: 60%
+        background: linear-gradient(90deg, #2b5876 0%, #51a4dc 100%)
+        -webkit-background-clip: text //Свойство градиента на текст
+        color: transparent
+    &__desc
+        text-align: center
