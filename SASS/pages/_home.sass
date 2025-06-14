@@ -101,10 +101,15 @@
 .contacts
     @include background-cover($bg-contacts-image)
     height: auto
+    @media (min-width: 1200px)
+        @include background-cover($bg-contacts-image-pc)
     &__title-wrap
         display: flex
         align-items: center
         flex-direction: column
+        @media (min-width: 1200px)
+            margin: 0 auto 3rem auto
+            width: 75%
     &__title
         max-width: 60%
         background: linear-gradient(90deg, #2b5876 0%, #51a4dc 100%)
@@ -112,3 +117,6 @@
         color: transparent
     &__desc
         text-align: center
+        @media (min-width: 1200px)
+            margin: 0 auto
+            width: 65%
