@@ -3,6 +3,27 @@
     width: 100%
     &__container
         padding: 0
+    &__wrap
+        @media (min-width: 1200px)
+            display: flex
+            gap: 24.4rem
+
+    &__header-container
+        @media (min-width: 1200px)
+            display: flex
+            flex-direction: column
+    &__desc
+        @media (min-width: 1200px)
+            text-align: left !important
+
+.personal-wrap
+    &__left
+        @media (min-width: 1200px)
+            max-width: 35%
+
+    &__right
+        @media (min-width: 1200px)
+            max-width: 30%
 
 .personal-link
     display: flex
