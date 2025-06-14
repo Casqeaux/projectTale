@@ -1,4 +1,3 @@
-![pc](https://github.com/user-attachments/assets/58ab44a2-9ca4-4a23-b4ac-54f2a94bed2b)
 # 📱 Project Tale — Тестовое задание
 
 ##  Ссылка на сайт:
