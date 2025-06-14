@@ -350,7 +350,7 @@
       <section class="waranty">
         <div class="container">
           <h2
-            class="waranty__card waranty-card__title title-second text-align-center color-white margin-bottom-40px"
+            class="waranty__title title-second text-align-center color-white margin-bottom-40px"
           >
             Гарантии
           </h2>
@@ -738,77 +738,192 @@
           >
             Напишите нам
           </h2>
-          <!-- Начало формы -->
-          <form class="form" action="#" method="POST">
-            <div class="form__row">
-              <label class="form__label" id="name">Имя*</label>
-              <input
-                type="text"
-                class="form__input"
-                placeholder="Ваше имя"
-                name="name"
-                required
-              />
-              <label class="form__label" id="phone">Номер телефона*</label>
-              <input
-                type="tel"
-                class="form__input"
-                placeholder="Ваш телефон"
-                name="phone"
-                required
-              />
-              <label class="form__label" id="email">E-Mail*</label>
-              <input
-                type="email"
-                class="form__input"
-                placeholder="Ваш E-mail"
-                name="email"
-                required
-              />
-              <label class="form__label" id="select">Тип события*</label>
-              <div class="select-wrapper">
-                <select class="form__input" name="event" required>
-                  <option value="">Выберите событие</option>
-                  <option value="wedding">Свадьба</option>
-                  <option value="church">Венчание</option>
-                  <option value="birthday">День рождения</option>
-                  <option value="family">Семейное торжество</option>
-                </select>
-              </div>
-              <label class="form__label" id="local">Место</label>
-              <input
-                type="text"
-                class="form__input"
-                placeholder="Место"
-                name="place"
-              />
-              <label class="form__label" id="date">Дата</label>
-              <input type="date" class="form__input" name="date" />
-              <label class="form__label" id="message">Сообщение</label>
-              <textarea
-                class="form__textarea"
-                placeholder="Сообщение"
-                name="message"
-              ></textarea>
+          <!-- Начало формы - ПК -->
+          <div class="form-section__container desctop-form">
+            <form class="form" action="#" method="POST">
+              <div class="form-desctop">
+                <div class="form-desctop__container">
+                  <div class="form-desctop__wrap-left">
+                    <div class="form__card">
+                      <label class="form__label" id="name">Имя*</label>
+                      <input
+                        type="text"
+                        class="form__input"
+                        placeholder="Ваше имя"
+                        name="name"
+                        required
+                      />
+                      <div class="form__card">
+                        <label class="form__label" id="phone"
+                          >Номер телефона*</label
+                        >
+                        <input
+                          type="tel"
+                          class="form__input"
+                          placeholder="Ваш телефон"
+                          name="phone"
+                          required
+                        />
+                        <label class="form__label" id="email">E-Mail*</label>
+                        <input
+                          type="email"
+                          class="form__input"
+                          placeholder="Ваш E-mail"
+                          name="email"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
 
-              <div class="form__row--checkbox margin-bottom-35px">
-                <label class="form__checkbox">
-                  <input type="checkbox" required />
-                  <span>
-                    Отправляя заявку, я соглашаюсь с правилами
-                    <a href="#" target="_blank">пользовательским соглашением</a>
-                  </span>
-                </label>
-              </div>
-              <div class="btn__center">
-                <div class="btn__wrapper">
-                  <button type="submit" class="btn__style">
-                    Отправить &rarr;
-                  </button>
+                  <div class="form-desctop__wrap-right">
+                    <div class="form__card">
+                      <label class="form__label" id="select"
+                        >Тип события*</label
+                      >
+                      <div class="select-wrapper">
+                        <select class="form__input" name="event" required>
+                          <option value="">Выберите событие</option>
+                          <option value="wedding">Свадьба</option>
+                          <option value="church">Венчание</option>
+                          <option value="birthday">День рождения</option>
+                          <option value="family">Семейное торжество</option>
+                        </select>
+                      </div>
+                      <div class="form__card">
+                        <label class="form__label" id="local">Место</label>
+                        <input
+                          type="text"
+                          class="form__input"
+                          placeholder="Место"
+                          name="place"
+                        />
+                        <label class="form__label" id="date">Дата</label>
+                        <input type="date" class="form__input" name="date" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-desctop__wrap-content-area">
+                    <label class="form__label" id="message">Сообщение</label>
+                    <textarea
+                      class="form__textarea"
+                      placeholder="Сообщение"
+                      name="message"
+                    ></textarea>
+                    <div class="form__row--checkbox margin-bottom-35px">
+                      <label class="form__checkbox">
+                        <input type="checkbox" required />
+                        <span>
+                          Отправляя заявку, я соглашаюсь с правилами
+                          <a href="#" target="_blank"
+                            >пользовательским соглашением</a
+                          >
+                        </span>
+                      </label>
+                    </div>
+                    <div class="btn__center">
+                      <div class="btn__wrapper">
+                        <button type="submit" class="btn__style">
+                          Отправить &rarr;
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
+
+          <!-- Начало формы - Мобильный телефон -->
+          <div class="form-section__container mobile">
+            <form class="form" action="#" method="POST">
+              <div class="form__row">
+                <div class="form__wrap">
+                  <div class="form__card">
+                    <label class="form__label" id="name">Имя*</label>
+                    <input
+                      type="text"
+                      class="form__input"
+                      placeholder="Ваше имя"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  <div class="form__card">
+                    <label class="form__label" id="phone"
+                      >Номер телефона*</label
+                    >
+                    <input
+                      type="tel"
+                      class="form__input"
+                      placeholder="Ваш телефон"
+                      name="phone"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form__wrap">
+                  <div class="form__card">
+                    <label class="form__label" id="email">E-Mail*</label>
+                    <input
+                      type="email"
+                      class="form__input"
+                      placeholder="Ваш E-mail"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="form__card">
+                    <label class="form__label" id="select">Тип события*</label>
+                    <div class="select-wrapper">
+                      <select class="form__input" name="event" required>
+                        <option value="">Выберите событие</option>
+                        <option value="wedding">Свадьба</option>
+                        <option value="church">Венчание</option>
+                        <option value="birthday">День рождения</option>
+                        <option value="family">Семейное торжество</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <label class="form__label" id="local">Место</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Место"
+                  name="place"
+                />
+                <label class="form__label" id="date">Дата</label>
+                <input type="date" class="form__input" name="date" />
+                <label class="form__label" id="message">Сообщение</label>
+                <textarea
+                  class="form__textarea"
+                  placeholder="Сообщение"
+                  name="message"
+                ></textarea>
+
+                <div class="form__row--checkbox margin-bottom-35px">
+                  <label class="form__checkbox">
+                    <input type="checkbox" required />
+                    <span>
+                      Отправляя заявку, я соглашаюсь с правилами
+                      <a href="#" target="_blank"
+                        >пользовательским соглашением</a
+                      >
+                    </span>
+                  </label>
+                </div>
+                <div class="btn__center">
+                  <div class="btn__wrapper">
+                    <button type="submit" class="btn__style">
+                      Отправить &rarr;
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     </main>

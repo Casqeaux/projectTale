@@ -163,6 +163,24 @@ p {
   display: none;
 }
 
+.mobile {
+  display: block;
+}
+@media (min-width: 1200px) {
+  .mobile {
+    display: none !important;
+  }
+}
+
+.desctop-form {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .desctop-form {
+    display: block;
+  }
+}
+
 .slider {
   position: relative;
   width: 100%;
@@ -352,11 +370,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media (min-width: 1200px) {
-  .btn__center {
-    display: none;
-  }
 }
 @media (min-width: 1200px) {
   .btn__desctop {
@@ -560,6 +573,10 @@ p {
   }
 }
 
+.waranty__title {
+  margin: 0 0 8rem 0 !important;
+}
+
 .contacts-content__wrap {
   display: flex;
   flex-direction: column;
@@ -604,9 +621,47 @@ p {
   gap: 3rem;
 }
 
+@media (min-width: 1200px) {
+  .form-section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .form-section__title {
+    text-align: center !important;
+  }
+}
+
 .form {
   display: flex;
   flex-direction: column;
+}
+.form__wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 2rem 0;
+}
+@media (min-width: 1200px) {
+  .form__wrap {
+    flex-direction: row;
+  }
+}
+.form__card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 2rem 0;
+}
+.form__card:last-child {
+  margin: 0;
+}
+@media (min-width: 1200px) {
+  .form__card {
+    width: 100%;
+    margin: 0 3.5rem 0 0;
+  }
 }
 .form__row {
   display: flex;
@@ -614,14 +669,18 @@ p {
   flex-wrap: wrap;
 }
 .form__row--checkbox {
-  align-items: center;
-  justify-content: center;
   font-size: 1.6rem;
   color: #000507;
   opacity: 70%;
 }
+@media (min-width: 1200px) {
+  .form__row--checkbox {
+    display: flex;
+    justify-content: center;
+  }
+}
 .form__input, .form__textarea, .form select {
-  flex: 1 1 45%;
+  flex: 1 1 100%;
   margin: 0 0 2rem 0;
   padding: 1.2rem 1.5rem;
   border: 0.1rem solid #000000;
@@ -634,6 +693,16 @@ p {
 }
 .form__input:last-child, .form__textarea:last-child, .form select:last-child {
   margin: 0;
+}
+@media (min-width: 1200px) {
+  .form__input, .form__textarea, .form select {
+    max-width: 100%;
+  }
+  .form__input:focus, .form__textarea:focus, .form select:focus {
+    background-color: #4FA1DB;
+    opacity: 10%;
+    color: #000000;
+  }
 }
 .form__textarea {
   width: 100%;
@@ -702,6 +771,22 @@ p {
   background-image: url("../img/form-arrow.svg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.form-desctop__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.form-desctop__wrap-left {
+  width: 45%;
+}
+.form-desctop__wrap-right {
+  width: 45%;
+}
+.form-desctop__wrap-content-area {
+  width: 94% !important;
 }
 
 @media (min-width: 1200px) {
@@ -866,6 +951,7 @@ p {
   }
 }
 .contacts__title {
+  text-align: center !important;
   max-width: 60%;
   background: linear-gradient(90deg, #2b5876 0%, #51a4dc 100%);
   -webkit-background-clip: text;
