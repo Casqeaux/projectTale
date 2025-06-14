@@ -1,8 +1,5 @@
 # 📱 Project Tale — Тестовое задание
 
-![Project Tale Desktop](https://disk.yandex.ru/i/D9O5HNzbr2_lZg)
-![Project Tale Mobile](https://disk.yandex.ru/i/-uzpfyUmbuHFXA)
-
 ##  Ссылка на сайт:
 [Перейти к проекту](https://casqeaux.github.io/projectTale/)
 
