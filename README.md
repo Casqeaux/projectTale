@@ -1,3 +1,4 @@
+![pc](https://github.com/user-attachments/assets/58ab44a2-9ca4-4a23-b4ac-54f2a94bed2b)
 # 📱 Project Tale — Тестовое задание
 
 ##  Ссылка на сайт:
@@ -33,7 +34,8 @@
 ![121313](https://github.com/user-attachments/assets/1a5d570f-1ece-4d0a-8844-9dde2462a52c)
 
 ### Десктоп
-![Desktop View]([https://disk.yandex.ru/i/D9O5HNzbr2_lZg](https://downloader.disk.yandex.ru/preview/79c57a2c144e02c400e0dc15d3e7cfce6eb14c7fcf5f4e10c743e14f630c4e44/684dab52/onD9G14hNm5ZmnFHgnv6UV8YJaCa1yPVK3UVTTWJnNqzod7dGrMIwqJDAK8q534ozeNve1gEFBOIohasZsnNKQ%3D%3D?uid=0&filename=pc.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v3&size=2048x2048))
+[Desktop View]([https://disk.yandex.ru/i/D9O5HNzbr2_lZg]
+![pc](https://github.com/user-attachments/assets/8bbeac7f-c02d-4eb1-9aed-21fcc1e1927b)
 
 ### Мобильная версия
-![Mobile View]([https://disk.yandex.ru/i/-uzpfyUmbuHFXA](https://downloader.disk.yandex.ru/preview/4a27fef39fd544494e0db27fcfd3692978f8605af0d9088ed24583f934faf881/684dab61/YI4Zosg02I7cVJoFa8OlKbMrsTlts1-CerlCMyVdyc9QAAiAeemDeoJcfVVdaJhEfqVOdXhQyT0bnRJWnP1hrw%3D%3D?uid=0&filename=mobile.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v3&size=2048x2048))
+![mobile](https://github.com/user-attachments/assets/3b7a5831-11f5-44b6-9492-dd67a66b1970)
