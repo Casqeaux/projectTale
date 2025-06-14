@@ -34,8 +34,7 @@
 ![121313](https://github.com/user-attachments/assets/1a5d570f-1ece-4d0a-8844-9dde2462a52c)
 
 ### Десктоп
-[Desktop View]([https://disk.yandex.ru/i/D9O5HNzbr2_lZg]
-![pc](https://github.com/user-attachments/assets/8bbeac7f-c02d-4eb1-9aed-21fcc1e1927b)
+[Desktop View]([[https://disk.yandex.ru/i/D9O5HNzbr2_lZg](https://disk.yandex.ru/client/disk/git/project_tale.by?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fgit%2Fproject_tale.by%2Fpc.png)]
 
 ### Мобильная версия
-![mobile](https://github.com/user-attachments/assets/3b7a5831-11f5-44b6-9492-dd67a66b1970)
+[Mobile View]([[https://disk.yandex.ru/i/D9O5HNzbr2_lZg](https://disk.yandex.ru/client/disk/git/project_tale.by?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fgit%2Fproject_tale.by%2Fmobile.png)]
