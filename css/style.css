@@ -333,6 +333,17 @@ p {
 .slider-content__content {
   line-height: 140%;
 }
+
+.slider__control_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 7rem;
+  border: 0.1rem solid #000000;
+  border-radius: 3rem;
+}
+
 .btn__wrapper {
   display: inline-block;
   padding: 0.1rem;
@@ -863,6 +874,18 @@ p {
 @media (min-width: 1200px) {
   .trust__title {
     margin: 0 0 8rem 0 !important;
+  }
+}
+.trust__btn {
+  position: relative !important;
+  top: 0;
+  right: 0;
+}
+@media (min-width: 1200px) {
+  .trust__btn {
+    position: absolute !important;
+    top: 18%;
+    right: 10%;
   }
 }
 .trust__wrapper {
