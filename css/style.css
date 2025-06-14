@@ -252,9 +252,7 @@ p {
   padding: 1rem;
   cursor: pointer;
   font-size: 2.4rem;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .slider #slide1:checked ~ .slider__arrows .arrow:nth-child(3),
 .slider #slide1:checked ~ .slider__arrows .arrow:nth-child(4),
